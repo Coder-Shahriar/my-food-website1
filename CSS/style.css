@@ -6,6 +6,45 @@ body{
     background-color: #FFFFFF;
 
 }
+/*=============navbar class start==================*/
+.nav{
+	background-color: black;
+	padding: 0 2rem;
+	min-height: 10vh;
+	overflow: hidden;
+	transition: height 1s ease-in-out;
+}
+.nav .nav-menu{
+    display: flex;
+	justify-content: space-between;
+    margin: 10px 10%;
+}
+.nav .nav-items{
+	display: flex;
+	margin: 0em;
+    list-style: none;
+
+}
+.nav .nav-items .nav-link{
+	padding: 1.6rem 1rem;
+	font-size: 1.1rem;
+	position: relative;
+    text-decoration: none;
+}
+.nav .nav-items .nav-link a{
+    text-decoration: none;
+    color: orange;
+}
+
+.nav .nav-brand a{
+	font-size: 2rem;
+	padding: 1rem 0;
+	display: block;
+    color: orange;
+    text-decoration: none;
+    font-weight: bolder;
+}
+/*------------------*/
 
 h1{
     font-size: 60px;
