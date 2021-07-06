@@ -6,6 +6,50 @@ body{
     background-color: #FFFFFF;
 
 }
+
+/*=============Global css==================*/
+.flexible-container{
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    margin: 0 15%;
+    
+}
+.orange-color{
+    color: orange;
+}
+p{
+    display: block;
+    font-size: 17px;
+    font-weight: inherit;
+    line-height: 36px;
+}
+h1{
+    font-size: 60px;
+}
+.half-width{
+    width: 50%;
+    padding: 0 3%;
+    
+}
+.title-size{
+    font-size: 37px;
+}
+.link-button{
+    font-size: 1em;
+    background-image: linear-gradient(#FBA24F, #FF1E1E);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 2em;
+    padding: .8em 1.6em;
+    border-radius: 30px;
+    display: inline-block;
+    box-shadow: 0px 0px 16px #fc8f49;
+
+}
 /*=============navbar class start==================*/
 .nav{
 	background-color: black;
@@ -46,85 +90,37 @@ body{
 }
 /*------------------*/
 
-h1{
-    font-size: 60px;
-}
+/*=============Top banner section - first section==================*/
 
-.title-size{
-    font-size: 37px;
-}
-
-.orange-color{
-    color: orange;
-}
-
-p{
-    display: block;
-    font-size: 17px;
-    font-weight: inherit;
-    line-height: 36px;
-}
-
-
-.flexible-container{
-    width: 1440px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 150px;
-    margin: 0 auto;
+.top-banner{
+    padding: 9rem 4rem;
     
 }
-.about_me .flexible-container p{
-    margin-bottom: 90px;
-    width: 82%;
+.half-width img{
+    width: 80%;
 }
-.first-sec{
-    padding: 7rem 4rem;
-    
-}
+
+/*=============about me section - second section==================*/
+
 .about_me{
     background-image: url(../images/shapes/7.png);
     /* background-color: #FFF4ED; */
     padding: 7rem 4rem 0;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    
-    
+    background-size: 100% 100%;   
+}
+.image-size{
+    width: 30%;
 }
 
-.half-width{
-    width: 50%;
-    padding: 0 3%;
-    
-}
-.flexible-width{
-    width: 33.33%;
-    padding: 0 4%;
+
+.about_me .flexible-container p{
+    margin-bottom: 90px;
+    width: 82%;
 }
 
-.half-width img{
-    width: 80%;
-}
-.flexible-width img{
-    width: 100%;
-    margin-bottom: 50px;
-}
 
-.link-button{
-    font-size: 1em;
-    background-image: linear-gradient(#FBA24F, #FF1E1E);
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    margin-top: 2em;
-    padding: .8em 1.6em;
-    border-radius: 30px;
-    display: inline-block;
-    box-shadow: 0px 0px 16px #fc8f49;
-
-}
-
+/*=============reciepe section - 3rd section==================*/
 .My-recipies-area{
     margin-bottom: 150px;
     
@@ -134,7 +130,41 @@ p{
     text-align: center;
     margin: 75px auto 40px;
 }
+.description{
+    font-family: 'Manrope', sans-serif;
+}
+.flexible-width{
+    width: 33.33%;
+    padding: 0 4%;
+}
+.special-shedow{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px rgb(206, 200, 200);
+    padding: 6% 6%;
+}
 
+
+.flexible-width img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+strong{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+/*=============subscriber section - 4th section==================*/
+.subscriber-info{
+    margin-bottom: 80px;
+}
+.special-container{
+    background-color: #FFFFFF;
+    width: 73%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(206, 200, 200);
+}
 .special-width{
     margin: 55px 110px;
 }
@@ -142,9 +172,29 @@ p{
     font-size: 35px;
 }
 
-.subscriber-info{
-    margin-bottom: 80px;
+small{
+    display: block;
+    margin-top: 5px;
+    font-family: 'Manrope', sans-serif;
 }
+
+/*=============instagram section - 5th section==================*/
+
+.instagram-update{
+    margin-top: 12rem;
+}
+
+.instagrame-photo-update {
+    display: flex;
+}
+
+img {
+    width: 20%;
+}
+
+
+
+/*=============footer section - 6th section==================*/
 
 footer{
     background-color: black;
@@ -156,38 +206,13 @@ footer{
     color: #5B5B5B;
 }
 
-.special-container{
-    background-color: #FFFFFF;
-    width: 73%;
-    border-radius: 10px;
-    box-shadow: 10px 10px 40px rgb(206, 200, 200);
-}
-small{
-    display: block;
-    margin-top: 5px;
-}
-.special-shedow{
-    background-color: #FFFFFF;
-    border-radius: 30px;
-    box-shadow: 10px 10px 40px rgb(206, 200, 200);
-    padding: 6% 6%;
-}
-strong{
-    font-size: 20px;
-    font-weight: 900;
-}
 .footer-description{
     font-size: 16px;
 }
-.image-size{
-    width: 30%;
-}
-.instagrame-photo-update {
-    display: flex;
-}
-img {
-    width: 20%;
-}
-.instagram-update{
-    margin-top: 12rem;
-}
+
+
+
+
+
+
+
